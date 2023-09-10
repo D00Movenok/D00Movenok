@@ -1,16 +1,36 @@
-### Hi there 👋
+<div align="center">
+  <a href="https://t.me/D00Movenok">
+    <img src="https://img.shields.io/badge/-@D00Movenok-0088CC?style=flat&logo=Telegram&logoColor=white" alt=""/>
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=D00Movenok">
+    <img src="https://img.shields.io/badge/-@D00Movenok-212121?style=flat&logo=X" alt="X (formerly Twitter) Badge"/>
+  </a>
+  <a href="Telegram Badge">
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FD00Movenok%2FD00Movenok.json&style=flat&label=Visitors&color=4c1" alt="Visitors Badge"/>
+  </a>
+</div>
 
-<!--
-**D00Movenok/D00Movenok** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div>
+  <h2 align="center">:smile_cat: About me :smile_cat:</h2>
+  
+  <img align="right" alt="Some funny gif" height="185" src="images/pepe-matrix.gif" />
+  
+  Hi there, I'm Georgii Gennadev 👋 \
+  Here you can read some short info about me:
+  
+  :shipit: Senior Penetration Tester and Red Team Operator \
+  :godmode: Developing offensive tools \
+  :telescope: Researching Active Directory \
+  :triangular_flag_on_post: Sometimes capturing flags \
+  :mailbox_with_mail: Ready to collaborate
+</div>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+  <h2 align="center">:star: Github Stats :star:</h2>
+  <a href="https://github.com/D00Movenok">
+    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=D00Movenok&theme=transparent" />
+  </a>
+  <a href="https://github.com/D00Movenok">
+    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=D00Movenok&layout=compact&langs_count=8&card_width=320&theme=transparent" />
+  </a>
+</div>
