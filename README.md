@@ -5,6 +5,9 @@
   <a href="https://twitter.com/intent/follow?screen_name=D00Movenok">
     <img src="https://img.shields.io/badge/-@D00Movenok-212121?style=flat&logo=X" alt="X (formerly Twitter) Badge"/>
   </a>
+  <a href="https://www.linkedin.com/in/d00movenok/">
+    <img src="https://img.shields.io/badge/-@D00Movenok-0A66C2?style=flat&logo=LinkedIn&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
   <a href="https://t.me/RedTeamFeed">
     <img src="https://img.shields.io/badge/Blog-@RedTeamFeed-0088CC?style=flat&logo=Telegram&logoColor=white" alt="Telegram Channel Badge"/>
   </a>
