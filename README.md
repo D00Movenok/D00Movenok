@@ -28,7 +28,7 @@
   :godmode: Developing offensive tools \
   :telescope: Researching Active Directory \
   :bookmark: Writing notes and announcements to my [twitter](https://twitter.com/intent/follow?screen_name=D00Movenok) and [telegram channel](https://t.me/RedTeamFeed) \
-  :memo: OSCP, OSEP \
+  :memo: OSCP, OSEP, CRTO \
   :triangular_flag_on_post: Sometimes capturing flags \
   :mailbox_with_mail: Ready to collaborate
 </div>
