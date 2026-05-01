@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Blog-@RedTeamFeed-0088CC?style=flat&logo=Telegram&logoColor=white" alt="Telegram Channel Badge"/>
   </a>
   <a href="https://github.com/D00Movenok">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FD00Movenok%2FD00Movenok.json&style=flat&label=Visitors&color=4c1&cacheSeconds=600" alt="Visitors Badge"/>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=D00Movenok.D00Movenok&left_text=Visitors&right_color=%2344cc11&format=true" alt="Visitors Badge"/>
   </a>
 </div>
 
@@ -36,9 +36,9 @@
 <div align="center">
   <h2 align="center">:star: Github Stats :star:</h2>
   <a href="https://github.com/D00Movenok">
-    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=D00Movenok&theme=transparent" />
+    <img width="450px" align="center" src="images/stats.svg" />
   </a>
   <a href="https://github.com/D00Movenok">
-    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=D00Movenok&layout=compact&langs_count=8&card_width=320&theme=transparent" />
+    <img width="308px" align="center" src="images/top-langs.svg" />
   </a>
 </div>

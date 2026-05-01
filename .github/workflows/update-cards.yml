@@ -1,0 +1,55 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+
+      - name: Checkout LFS objects
+        run: git lfs checkout
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&theme=transparent
+          path: images/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=transparent
+          path: images/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/top-langs.svg images/stats.svg
+
+          LAST_COMMIT=$(git log -1 --pretty=%B)
+          COMMIT_NAME="Update README cards"
+          if [ "$LAST_COMMIT" = "$COMMIT_NAME" ]; then
+            git commit --amend --no-edit || exit 0
+            git push --force-with-lease
+          else
+            git commit -m "$COMMIT_NAME" || exit 0
+            git push
+          fi
